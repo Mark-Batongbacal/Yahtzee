@@ -66,10 +66,10 @@ object DiceRules {
             listOf(1, 2, 3, 4)
         ) ||
                 values.containsAll(
-                    listOf(2, 3, 4, 5)
+                    setOf(2, 3, 4, 5)
                 ) ||
                 values.containsAll(
-                    listOf(3, 4, 5, 6)
+                    setOf(3, 4, 5, 6)
                 )
     }
 
